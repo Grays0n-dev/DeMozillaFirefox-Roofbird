@@ -12,7 +12,7 @@
             "fieldPath": "id",
             "columnName": "_id",
             "affinity": "INTEGER",
-            "notNull": true
+            "notNull": false
           },
           {
             "fieldPath": "title",
@@ -24,13 +24,13 @@
             "fieldPath": "url",
             "columnName": "url",
             "affinity": "TEXT",
-            "notNull": true
+            "notNull": false
           },
           {
             "fieldPath": "viewCount",
             "columnName": "view_count",
             "affinity": "INTEGER",
-            "notNull": true
+            "notNull": false
           },
           {
             "fieldPath": "lastViewTimestamp",
